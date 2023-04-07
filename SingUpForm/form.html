@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+    <title>SingUp</title>
+</head>
+<body>
+    <div class="left">
+        <div class="logo">
+            <img src="./style/img/odin-lined.png" alt="logo" id="odin-logo">
+            <p id="norse">Odin</p>
+        </div>
+        
+    </div>
+    <div class="right">
+        <div class="toptext">
+            <h1>This is where you Sign in!</h1>
+            <p>This is your online place <em>you</em> are looking for</p>
+            <p>Bottom Text xD</p>
+
+        </div>
+        <div class="middle">
+            <h3>Sign up</h3>
+            <form action="#" method="post" id="sign-up">
+                <div class="top-form">
+                    <div class="input-flex">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="John" pattern="^([a-zA-Z]+)" required>
+                    </div>
+                    <div class="input-flex">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Doe" pattern="^([a-zA-Z]+)" required>
+
+                    </div>
+                </div>
+
+                <div class="middle-form">
+                    <div class="input-flex">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="email@example.com" required>
+                    </div>
+                    <div class="input-flex">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+34603657308" required>
+                    </div>
+                </div>
+                <div class="bot-form">
+                    <div class="input-flex">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="input-flex">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" id="confirm" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="bottom">
+            <div class="button-container">
+                <button type="submit" form="sign-up" id="btn-sign-up">Create Account</button>
+            </div>
+            <p>Already have an account?</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

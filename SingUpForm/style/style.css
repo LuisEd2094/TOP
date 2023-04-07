@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "norsebold" ;
+    src: url("./fonts/Norse-Bold.otf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.left{
+    display: flex;
+    position: relative;
+    background-image: url("./img/photo-1668625598340-f07181c7a143.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 40%;
+}
+
+.logo{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    background-color: #0000005d;
+    align-items: center;
+    justify-content: center;
+}
+
+#norse{
+    font-family: 'norsebold', sans-serif;
+    color: white;
+    font-size: 90px;
+}
+#odin-logo{
+    height: 110px;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100vh;
+}
+
+.right > *{
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 255, 98);
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+.toptext{
+    height: 30vh;
+}
+
+.toptext > *{
+    margin-bottom: 2%;
+}
+
+.middle{
+    background-color: beige;
+    height: 50vh;
+}
+
+#sign-up > *{
+    display: flex;
+    gap: 100px;
+}
+
+#sign-up input{
+    border: 2.5px solid #E5E7EB;
+}
+
+#sign-up{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bottom{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 300px;
+}
+
+#btn-sign-up{
+    background-color: aquamarine;
+    border: 3px solid forestgreen;
+    border-radius: 8px;
+    box-shadow: 2px 2px hsla(0, 0%, 50%, 0.285);
+    color: black;
+    font-size: 1.8rem;
+    margin: 30px 0 20px 0;
+    padding: 12px 30px  ;
+}
+
